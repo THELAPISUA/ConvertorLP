@@ -1,15 +1,13 @@
 # 🖼️ ConvertorLP
 
 **ConvertorLP** is a lightweight and user-friendly image format converter built with JavaFX.  
-It allows you to easily convert images between common formats like **PNG**, **JPG**, **BMP**, and more — all through a clean and intuitive GUI.
+It allows you to easily convert images between common formats like **PNG**, **JPG**, **BMP** — all through a clean and intuitive GUI.
 
 ---
 
 ## ✨ Features
 
-- ✅ Convert images between multiple formats (JPEG, PNG, BMP, etc.)
-- 🖱️ Simple drag-and-drop interface
-- 📁 Batch conversion support *(if implemented)*
+- ✅ Convert images between multiple formats (JPEG, PNG, BMP)
 - 🎨 Lightweight, responsive JavaFX UI
 - 💡 Built for learning and practical use
 
