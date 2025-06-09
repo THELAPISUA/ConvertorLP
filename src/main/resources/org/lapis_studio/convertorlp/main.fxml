@@ -5,7 +5,7 @@
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass=".root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.lapis_studio.convertorlp.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass=".root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.lapis_studio.convertorlp.MainController">
    <children>
       <Label fx:id="PathLabel" layoutX="28.0" layoutY="47.2" prefHeight="44.0" prefWidth="143.0" text="Path1" wrapText="true" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="47.0" />
       <Label fx:id="OutputPathLabel" layoutX="28.0" layoutY="414.0" prefHeight="44.0" prefWidth="174.0" text="OutputPath" wrapText="true" />
@@ -13,6 +13,6 @@
       <Button fx:id="ConvertButton" layoutX="23.0" layoutY="477.0" mnemonicParsing="false" onAction="#oConvertButtonClick" prefHeight="99.0" prefWidth="353.0" text="CONVERT" />
       <RadioButton fx:id="radioPNG" layoutX="115.0" layoutY="236.0" mnemonicParsing="false" text="PNG" />
       <RadioButton fx:id="radioJPG" layoutX="32.0" layoutY="236.0" mnemonicParsing="false" text="JPG" />
-      <RadioButton fx:id="radioJPEG" layoutX="200.0" layoutY="236.0" mnemonicParsing="false" text="JPEG" />
+      <RadioButton fx:id="radioBMP" layoutX="200.0" layoutY="236.0" mnemonicParsing="false" text="BMP" />
    </children>
 </AnchorPane>

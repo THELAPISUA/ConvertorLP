@@ -13,7 +13,7 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 
-public class HelloController {
+public class MainController {
 
 
     @FXML
@@ -29,7 +29,7 @@ public class HelloController {
     private Label PathLabel;
 
     @FXML
-    private RadioButton radioJPEG;
+    private RadioButton radioBMP;
 
     @FXML
     private RadioButton radioJPG;
@@ -74,9 +74,9 @@ public class HelloController {
             ImageIO.write(image, "png", outputFile);
         }
 
-        if (radioJPEG.isSelected()) {
-            File outputFile = new File(pathOut + File.separator + "output.jpeg");
-            ImageIO.write(toBufferedImage(image, BufferedImage.TYPE_INT_RGB), "jpeg", outputFile);
+        if (radioBMP.isSelected()) {
+            File outputFile = new File(pathOut + File.separator + "output.bmp");
+            ImageIO.write(toBufferedImage(image, BufferedImage.TYPE_INT_RGB), "bmp", outputFile);
         }
     }
     private BufferedImage toBufferedImage(BufferedImage src, int type) {
